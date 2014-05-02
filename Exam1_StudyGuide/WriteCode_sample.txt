@@ -1,0 +1,9 @@
+#2.
+
+	x = int(input("Enter char: "))
+	if x <= 64:
+		print "SMALL"
+	elif x >= 100:
+		print "LARGE"
+	else:
+		print "MEDIUM"
