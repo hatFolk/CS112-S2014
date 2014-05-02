@@ -1,0 +1,93 @@
+1.
+
+	in func 1 var1: 3
+	type: int
+	divide: 1
+	in func 1 var1: 3.0
+	type: float
+	divide: 1.0
+	[0, 1, 2]
+	in func 1 var1: 5
+	type: int
+	divide: 1 # in python2
+	in func 1 var1: 2
+	type: int
+	divide: 0
+	2
+	in func 1 var1: 2
+	type: int
+	divide: 0
+	<type 'list'>
+	in func 1 var1: 0
+	type: int
+	divide: 0
+	[]
+
+
+5.
+
+	1
+	a
+	2
+	3
+	EXCEPTION
+
+
+6.
+
+	in main
+	x 2
+	y 3
+	something went wrong!
+	x 2
+	y 2
+	1
+	well done
+	x 7
+	y 3
+	something went wrong!
+	halfway done divide
+	x 1
+	y 1
+	1
+	well done
+	x 1
+	y 0
+	cannot divide by zero!
+	done all divisions
+	glad that's over
+
+
+7.
+
+	a.
+		bestFile = open("best.html", "rU")
+		print(bestFile.read())
+
+	b.
+		list = [2, "kinga", (1, 2)]
+		list[1] = list[1][:-1]
+
+	c.
+		This is impossible as tuples are immutable.
+
+	d.
+
+		yes
+		None
+
+	e.
+
+		[[1, 2, 3],  2, 3]
+		[[1, 2, 3, 4], 2, 3]
+		[1, 2, 3, 4]
+
+	f.
+
+		True
+		False
+		False
+
+	g.
+
+		It was all good.
