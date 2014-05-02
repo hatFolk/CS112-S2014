@@ -1,0 +1,47 @@
+1. Imagine you are working on a team to implement a database for storing
+information about types of cars. Answer the following questions:
+
+	a. Write a class calle Animal, stored in a file called animal.py that has
+	the following properties
+
+		i. Each animal has a color, weight, age, and species
+
+		ii. A constructor that takes as argument three of the attributes above
+		(no more than three). It initializes those to the incoming values. The
+		fourth argument should be initialized inside the constructor to
+		whatever value you want.
+
+		iii. All of the fields must ALWAYS be of type string, for the lifetime
+		of the object.
+
+		iv. A to-string method that can be called with a print statement,
+		which would show the color and weight.
+
+		v. A method that returns the age of the animal.
+
+		vi. A method to set the age of the animal.
+
+	b. Now write a module saved as driver.py, to create two Car objects below
+	(you can assign them any reasonable values). Set the mileage of the first
+	car to 15 miles, and the mileage of the second car to 5 miles. There
+	should be no errors when I run the module as python driver.py, assuming
+	your Car class and this file are in the same directory.
+
+	c. Let's imagine you wanted to implement different types of cars. Rather
+	than write a field for the type, you want to make sub-classes ofr your Car
+	class. Show how you would inherit from the base class Car in a new class
+	Hatchback below (you don't have to implement anything else in this
+	question). You may assume this file would be saved as hatchback.py.
+
+
+3. Write a function below that calculates the length of an incoming list
+without using any built-in functions. The function should take a single list
+argument and return the length of the list. Your function must not assume
+anything about the size of the incoming list, i.e., it could be empty.
+
+
+4. Write an expression that will print out START if the word he is in a string
+called str, ONCE if the word hello is in str one time, MORE if the word hello
+is in str more than one time, and NONE if either is in str. You may assume str
+has already been given a value somewhere else in the code. You may use the
+index method of string if needed (i.e., "kinga".index("ing") returns 1).
