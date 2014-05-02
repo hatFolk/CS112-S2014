@@ -1,0 +1,43 @@
+1.
+	a.
+	
+	# in animal.py
+	class Animal:
+		def __init__(self, color, weight, age):
+			self.color = color
+			self.weight = weight
+			self.age = age
+			self.species = 'elephant'
+
+		def __str__(self):
+			return "Color: " + self.color + ", Weight: " + self.weight
+
+		def getAge(self);
+			return self.age
+
+		def setAge(self, newAge):
+			self.age = newAge
+
+
+	b.
+
+	# driver.py
+
+	one = Car()
+	two = Car()
+	one.mileage = 15
+	two.mileage=5
+
+	c.
+
+	class Hatchback(Car):
+		# The rest
+
+3.
+
+	def getLength(xs):
+		ctr = 0
+		for i in xs:
+			ctr += 1
+		return ctr
+
