@@ -1,0 +1,110 @@
+2. Show all the output from running the code below
+
+	num = 3
+
+	def func1(var1):
+		print "in func 1 var1: " + str(var1)
+		print "type: " + str(type(var1))
+		print "divide: " + str(var1 / num)
+		list = []
+		for i in range(int(var1)):
+			list.append(i)
+		return list
+
+	def main():
+		func1(3)
+		print func1(3.0)
+		func1(5)
+		print len(func1(2))
+		t = func1(2)
+		print type(t)
+		print func1(0)
+
+	main()
+
+
+5. Give the output of the following code. If you think there is an exception
+at any point, just write the word EXCEPTION (don't worry about the details of
+the exception):
+
+	dict = {"a": 1, 1: "a"}
+	print dict["a"]
+	print dict[1]
+	dict["a"] = 2
+	dict["b"] = 3
+	print dict["a"]
+	print dict["b"]
+	print dict["c"]
+
+
+6. Give the output for the following code:
+
+	def divide(x="2", y="3"):
+		try:
+			print "x " + x
+			print "y " + str(y)
+			div = int(x) / y
+			print div
+		except (ZeroDivisionError), e:
+			print "cannot divide by zero!"
+			raise(ValueError(e))
+		except(Exception), e:
+			print "something went wrong!"
+		else:
+			print "well done"
+
+	def main():
+		try:
+			print "in main"
+			divide()
+			divide(y=2)
+			divide("7")
+			print "halfway done divide"
+			divide("1", 1)
+			divide("1", 0)
+			print "done all divisions"
+		exception(ValueError), e:
+			print "no"
+		except (Exception), e:
+			print "fail"
+		finally:
+			print "glad that's over"
+
+	main()
+
+
+7. Short answer
+
+	a. Write an expression to open a file  called best.html for reading (it's
+	in the current directory), and then print out the entire contents of the
+	file.
+
+	b. Write an expression to update the list[2, "kinga", (1, 2)] to contain
+	"king" instead of "kinga", or state why this is impossible.
+
+	c. Now write an expression to update the tuple (2, "kinga", (1, 2)) to
+	contain "kinga" instead of "kinga", or wtate why this is impossible.
+
+	d. What is the output of the following code?
+
+		def test():
+			print "yes"
+
+		print test()
+
+	e. What is the output of the following code?
+
+		list1 = [1, 2, 3]
+		list2 = [list1, 2, 3]
+		print list2
+		list1.append(4)
+		print list2
+		print list1
+
+	f. Give the output of the following code:
+		print (True or False)
+		print (True and False)
+		print (1==1 and 1!= 1)
+
+	g. Describe one thing you liked or found useful this semester, and one
+	thing you did not like or did not find useful this semester.
