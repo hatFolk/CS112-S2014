@@ -39,7 +39,7 @@ the exception):
 
 6. Give the output for the following code:
 
-	def divide(x="2", y="3"):
+	def divide(x="2", y=3):
 		try:
 			print "x " + x
 			print "y " + str(y)
