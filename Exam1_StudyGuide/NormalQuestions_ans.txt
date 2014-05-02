@@ -1,0 +1,26 @@
+1. For the following expressions, write what value and type they would evaluate to
+in the python interpreter, or state that an error/exception is raised. If an exception is
+raised, you don't need to give a value. Just give the type of exception.
+
+	a. 7.0 + 3
+	b. 5 / 2
+	c. "2" + "3"
+	d. 1 in [1, 2]
+	e. '2 + 3'
+	f. range(3)
+	g. len([])
+	h. str("1")
+	i. 7 / 2.0
+	j. int("23")
+	k. 2 = x
+	m.
+		x = 3
+		x += 1
+		x
+	n. x + y
+	o.
+		x = 2
+		x == x
+	p. 7 / 2 + 1
+	q. not False
+	r. 1 or False

@@ -1,0 +1,115 @@
+1. For the following expressions, write what value and type they would evaluate to
+in the python interpreter, or state that an error/exception is raised. If an exception is
+raised, you don't need to give a value. Just give the type of exception.
+
+	a. 7.0 + 3
+	b. 5 / 2
+	c. "2" + "3"
+	d. 1 in [1, 2]
+	e. '2 + 3'
+	f. range(3)
+	g. len([])
+	h. str("1")
+	i. 7 / 2.0
+	j. int("23")
+	k. 2 = x
+	m.
+		x = 3
+		x += 1
+		x
+	n. x + y
+	o.
+		x = 2
+		x == x
+	p. 7 / 2 + 1
+	q. not False
+	r. 1 or False
+
+
+3. What is the output of the following code, assuming the user enters:
+a list [13, 11, -1]?
+
+	list = input()
+	print list
+	for i in list:
+		print i
+		if i > 12:
+			print "more than 12"
+		if i > 10:
+			print "more than 10"
+		else:
+			print "small"
+
+
+4. What is the output of the following code?
+
+	found = False
+	no = False
+	list = ['a', 4, 4.0, 'cat', no, 6]
+	ctr = 0
+
+	while not found:
+		print "elt: " + str(list[ctr])
+		if list[ctr] == False:
+			found = True
+		list[ctr] = str(list[ctr]) + "1"
+		if ctr < len(list) - 1:
+			print list[ctr] == list[ctr+1]
+		ctr = ctr + 1
+	print ctr
+	print list
+
+
+5. What does the following code output (assume we run it in the python module
+mode as test.py, where all the code below is inside that one file):
+
+	print "exam 1"
+
+	def func1():
+		print "func1"
+		return 'hello'
+
+	def func2(x):
+		print x
+		return x
+
+	def func3(x):
+		x = 4
+		print "func 3"
+
+	def main(x, y):
+		print(x + y)
+		return (x + y)
+	
+	y = func1()
+	print y
+	print func1()
+	y = func2(2)
+	print y
+	y = func3(2)
+	print y
+	y = main(5, 2)
+	print y
+	print main(2, 3)
+	func2(5)
+
+
+6. True/False -- Justify your answers annd document your assumptions.
+
+	a. Variable names cannot start with a number in Python
+
+	b. If a function call does not have argument, you can leave off the
+	parentheses.
+	
+	c. Python determines the type of a variable on the fly at runtime. That
+	is, the type of a variable can change throughout the program.
+	
+	d. An empty list evaluates to False when used with a conditional such as
+	an if statement.
+	
+	e. It is possible to call a built-in function such that you can call it
+	with a variable number of parameters.
+	
+	f. The python can be run in an interpreter and module mode.
+	
+	g. I write my name on all exams.
