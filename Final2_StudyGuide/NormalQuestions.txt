@@ -31,3 +31,62 @@
 		print list
 	
 	main()
+
+
+5. Give the output for the following code:
+
+	def func(x, y):
+		print "div: " + str(int(x)/y)
+		y-= 1
+		try:
+			print "div2: " + str(x/y)
+			print "done div"
+			if x == 0:
+				raise ValueError()
+		except ZeroDivisionError:
+			print "no div by 0!"
+		print "done func"
+	
+	def main(x, y):
+		try:
+			func(x, y)
+			print "main"
+		except ValueError:
+			print "value error!"
+		except Exception:
+			print "other error!"
+		finally:
+			print "sigh"
+	
+	main(2, 3)
+	main("2", 3)
+	main(0, 3)
+	main(3, 0)
+
+
+6. Short answer
+
+	a. Write an expression to open a file called best.html for reading and
+	writing (it's in the current directory), and then write the string "hello"
+	to the end file. Make sure your changes will persist on the hard drive.
+
+	b. Write an expression to create an empty directory, and then insert the
+	name "joe" with the value 11.
+
+	c. Now write an expression to check if the dictionary above has the value
+	"david" inside of it, and if so, prints out the value at that key.
+
+	e. Give the output of the following code
+
+		print (True or False)
+		print (True and False)
+		print (1 == 1 and 1 != 1)
+
+	f. What is the output of the following code?
+
+		list1 = [1, 2, 3]
+		list2 = [list1, 2, 3]
+		print list 2
+		list1.append(4)
+		print list2
+		print list1
