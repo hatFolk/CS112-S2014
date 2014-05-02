@@ -1,0 +1,33 @@
+2. Show all the output from running the code below
+
+	def func1(x, y, list):
+		x = 5
+		list.append(x)
+		list.append(y)
+		print "F1: " + str(list)
+		list = []
+		return list
+	
+	def func2(x, y, list):
+		print "F2: " + str(list)
+		print "divide: " + str(x/y)
+		print "mod: " + str(int(x)/int(y))
+	
+	def func3(list = 2):
+		print list
+		return list
+	
+	def main():
+		list = [1]
+		print list
+		list.append([1])
+		print func1(2, 3, list)
+		list = func1(4, 5, [9])
+		print list
+		print func2(1.0, 2, list)
+		func2(3, 4, list)
+		print func3()
+		list = func3([4, 5])
+		print list
+	
+	main()
