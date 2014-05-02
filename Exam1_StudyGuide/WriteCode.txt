@@ -1,0 +1,6 @@
+2. Write python code below that prompts the user to enter a character with the
+prompt "Enter char: ".
+Then, decide whether the character's integer value is greater than or less than 64.
+If it is less than 64, print out "SMALL" followed by the integer value of the character.
+If it's greater than or equal to 100, print out "LARGE", followed by the integer value of the character.
+Otherwise, print out "MEDIUM".

@@ -1,26 +1,104 @@
-1. For the following expressions, write what value and type they would evaluate to
-in the python interpreter, or state that an error/exception is raised. If an exception is
-raised, you don't need to give a value. Just give the type of exception.
+1. 
+	a. 10.0, float
 
-	a. 7.0 + 3
-	b. 5 / 2
-	c. "2" + "3"
-	d. 1 in [1, 2]
-	e. '2 + 3'
-	f. range(3)
-	g. len([])
-	h. str("1")
-	i. 7 / 2.0
-	j. int("23")
-	k. 2 = x
-	m.
-		x = 3
-		x += 1
-		x
-	n. x + y
-	o.
-		x = 2
-		x == x
-	p. 7 / 2 + 1
-	q. not False
-	r. 1 or False
+	b.	Python2: 2, int
+		Python3: 2.5, float
+
+	c. "23", String
+
+	d. True, boolean
+
+	e. "2 + 3", String
+
+	f.	In python2: [0, 1, 2] , list
+		In python3: range(0, 3), range
+
+	g. 0, int
+
+	h. "1", string
+
+	i. 3.5, float
+
+	j. 3, int
+
+	k. 23, int
+
+	l. SyntaxError: can't assign to literal
+
+	m. 4, int
+
+	n. NameError: name is not defined
+
+	o. True, boolean
+
+	p.	Python2: 4, int
+		Python3: 4.5, float
+
+	q. True, boolean
+
+	r. True, boolean
+
+
+3.
+
+	[13, 11, -1]
+	13
+	more than 12
+	more than 10
+	11
+	more than 10
+	-1
+	small
+
+
+4.
+
+	elt: a
+	False
+	elt: 4
+	False
+	elt: 4.0
+	False
+	elt: cat
+	False
+	elt: False
+	False
+	5
+	['a1', '41', '4.01', 'cat1', 'False1', 6]
+
+
+5.
+
+	exam 1
+	func1
+	hello
+	func1
+	hello
+	2
+	2
+	func3
+	4
+	None
+	6
+	6
+	7
+	7
+	5
+	5
+
+
+6.
+
+	a. True
+
+	b. False. It is not a function call with it but a function object.
+
+	c. True. Python is duck-typed and filled with varadic variables.
+
+	d. True. Anything empty is False.
+
+	e. True?
+
+	f. True?
+
+	g. Hopefully true.
