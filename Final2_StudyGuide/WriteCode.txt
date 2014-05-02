@@ -1,0 +1,39 @@
+1. Imagine you are working on a team to implement a database for storing
+information about types of animals. Answer the following questions:
+
+	a. Write a class called Animal, stored in a file called animal.py, that
+	has the following properties
+		i. Each animal has a color, weight, age, and species.
+		ii. A constructor that takes as argument three of the attributes above
+		(no more than three). It initializes those to the incoming values. The
+		fourth argument should be initialized inside the constructor to
+		whatever value you want.
+		iii. ALL of the fields must ALWAYS be of type String, for the lifetime
+		of the object.
+		iv. A to-string method that can be called with a print  statement,
+		which would show the color and weight.
+		v. A method that returns the age of the animal.
+		vi. A method to set the age of the animal.
+
+	b. Now write a module, saved as driver.py, to create two Animal objects
+	below (you can assign them any reasonable values). Set the age of the
+	first animal to 15, and the age of the second animal to 1. There should be
+	no errors when I run the module as python driver.py, assuming your Animal
+	class and this file are in the same directory.
+
+
+3. Write a function below called find, that calculates the number of times the
+character 'c' occurs in the elements of an incoming list (you may assume they
+will always be strings), without using any built-in functions/methods. The
+function should take a single list argument, and return an integer. Your
+function must not assume anything about the size of the incoming list, i.e.,
+it could be empty.
+
+For example: find(["cat", "cuckoo", "dog"]) would return 3.
+
+
+4. Write a function called oddSum that takes as argument a non-empty list of
+integers and prints out the sum of every other integer in the list without
+using any built-in functions/methods.
+
+For example, oddSum([1, 4, 2, 4 ]) prints out 8.
