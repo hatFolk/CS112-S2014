@@ -1,0 +1,58 @@
+1.
+
+	a.
+		# In animal.py
+		class Animal:
+			def __init__(self, color, weight, age):
+				if type(color) == type(weight) == type(age) == type("hi"):
+					self.color = color
+					self.weight = weight
+					self.age = age
+					self.species = "lolcat"
+				else:
+					raise TypeError("All fields must be String")
+			def __str__(self):
+				return "Color: {}, Weight: {}".format(self.color, self.weight)
+			def getAge(self):
+				return self.age
+			def setAge(self, newAge):
+				if type(newAge) == type("hi"):
+					self.age = newAge
+				else:
+					raise TypeError("Field must always be String")
+
+	b.
+		# In driver.py
+		shibe = Animal("yellow", "13 lb", "old")
+		nyan = Animal("rainbow", "0.5 lb", "not old")
+		shibe.setAge("15")
+		nyan.setAge("1")
+
+3.
+
+	def find(xs):
+		c_ctr = 0
+		for i in xs:
+			for j in i:
+				if j == "c":
+					c_ctr += 1
+		return c_ctr
+
+	# A different way:
+	def find(xs, c_ctr = 0):
+		if xs == []:
+			return c_ctr
+		else:
+			for i in xs[0]:
+				if i == "c":
+					c_ctr += 1
+			return find(xs[1:], c_ctr)
+
+4.
+
+	# Assume non-empty list of ints
+	def oddSum(xs):
+		res = 0
+		for i in range(1, len(xs), 2):
+			res += xs[i]
+		return res
