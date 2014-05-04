@@ -38,25 +38,8 @@
 	in main
 	x 2
 	y 3
-	something went wrong!
-	x 2
-	y 2
-	1
-	well done
-	x 7
-	y 3
-	2.33
-	halfway done divide
-	x 1
-	y 1
-	1
-	well done
-	x 1
-	y 0
-	cannot divide by zero!
-	done all divisions
-	glad that's over
-
+	0.33
+	
 
 7.
 

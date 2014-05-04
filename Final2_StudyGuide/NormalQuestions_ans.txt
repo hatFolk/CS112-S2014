@@ -9,4 +9,58 @@
 	divide: 0.5
 	mod: 0.5
 	None
+	F2: []
+	divide: 0.75
+	mod: 0.75
+	2
+	2
+	[4, 5]
+	[4, 5]
 
+
+5.
+
+	div: 0.66666666
+	div2: 1.0
+	done div
+	done func
+	main
+	sigh
+	div: 0.66666666
+	other error!
+	sigh
+	div: 0.0
+	div2: 0.0
+	done div
+	value error!
+	sigh
+	other error!
+	sigh
+
+6.
+
+	a.
+		the = open("best.html", "a")
+		the.write("hello")
+		the.close()
+
+	b.
+
+		awesome = {}
+		awesome["joe"] = 11
+
+	c.
+
+		print(awesome.get("david"))
+
+	e.
+
+		True
+		False
+		False
+
+	f.
+
+		[[1, 2, 3], 2, 3]
+		[[1, 2, 3, 4], 2, 3]
+		[1, 2, 3, 4]
